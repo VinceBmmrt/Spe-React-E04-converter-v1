@@ -1,0 +1,11 @@
+@use '../../styles/variables' as v;
+
+.app {
+  max-width: 25rem;
+  margin: auto;
+  background-color: v.$color-light;
+  height: calc(100vh - 2rem);
+
+  display: flex;
+  flex-direction: column;
+}

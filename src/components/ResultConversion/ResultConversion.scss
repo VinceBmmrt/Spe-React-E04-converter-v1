@@ -1,0 +1,13 @@
+.result-conversion {
+  padding: 1rem;
+  text-align: center;
+
+  &__value {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  &__currency {
+    font-size: 1.3rem;
+  }
+}
